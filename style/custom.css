@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800&display=swap');
+
+
+body {
+    margin: 0px 0xp 0px 0px;
+    height: 100vh;
+    background-image: url(../Img/patrick-tomasso-QMDap1TAu0g-unsplash.jpg) ;
+    background-position: center;
+    background-size:cover;
+    
+}
+
+
+.background-card{
+    width: 500px;
+    height: 532px;
+    border-radius: 30px;
+    box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(136deg, #4ca1af, #3a3f44 101%, #4ca1af 101%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile{
+        margin-top: 10px;
+}
+
+a {
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: nunito;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1 {
+    font-family: nunito;
+    font-size: 24px;
+  font-weight: 600;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-family: nunito;
+  font-size: 20px;
+font-weight: 600;
+color: white;
+display: flex;
+justify-content: center;
+}
+
+
+p{
+    font-family: nunito;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.links {
+    width: 500px;
+    height: 90px;
+    background-color: white;
+    border-bottom-left-radius: 30px ; 
+    border-bottom-right-radius: 30px ; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
